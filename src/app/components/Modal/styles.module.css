@@ -1,0 +1,14 @@
+.title {
+  border-bottom: 1px solid #ececec;
+  background: #f9f9f9;
+  text-transform: uppercase;
+}
+
+.content {
+  padding: 24px 32px !important;
+}
+
+.actions {
+  background: #00800014;
+  border-top: 1px solid #00800017;
+}

@@ -1,0 +1,23 @@
+.root {
+  display: inline-block;
+  float: right;
+}
+
+.button {
+  padding: 4px !important;
+  margin-left: 8px !important;
+}
+
+.icon {
+  color: gray;
+  height: 0.8em !important;
+  width: 0.8em !important;
+}
+
+.icon:hover {
+  color: black;
+}
+
+.closeBtn {
+  margin-left: 16px !important;
+}

@@ -1,0 +1,12 @@
+.bookDate {
+    line-height: 50px;
+    margin: 0;
+    display: inline-block !important;
+    vertical-align: bottom;
+}
+
+.arrowRight {
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    font-size: 50px !important;
+}

@@ -1,0 +1,89 @@
+.calendar {
+  width: 280px;
+}
+
+.weekdays {
+  display: block;
+  overflow: auto;
+}
+
+.weekday {
+  width: 40px;
+  float: left;
+  text-align: center;
+}
+
+.row {
+  display: block;
+  overflow: auto;
+}
+
+.day {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  font-weight: 900;
+  color: #5d5d5d;
+  float: left;
+  border: 2px solid white;
+  border-radius: 2px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+.day:hover {
+  border: 2px solid rgba(255, 166, 0, 0.384);
+}
+
+.days {
+  overflow: auto;
+}
+
+.weekend {
+  color: red;
+}
+
+.dayMuted {
+  opacity: 0.5;
+}
+
+.switch {
+  overflow: auto;
+  width: 280px;
+  padding: 10px 0;
+}
+
+.btns {
+  width: 25%;
+  float: left;
+  text-align: center;
+  cursor: pointer;
+  font-weight: 900;
+}
+
+.activeSwitch {
+  border-bottom: 2px solid rgb(46, 192, 236);
+}
+
+.forwardBtn {
+  text-align: right;
+  font-weight: bold;
+  padding: 0px 15px;
+}
+
+.backBtn {
+  text-align: left;
+  font-weight: bold;
+  padding: 0px 15px;
+}
+
+.selectedDay {
+  background: rgb(255, 206, 115);
+  border-radius: 2px;
+}
+
+.today {
+  border: 2px solid orange;
+  border-radius: 2px;
+}

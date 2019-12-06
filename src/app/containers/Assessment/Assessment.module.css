@@ -1,0 +1,110 @@
+.assessmentRoot {
+  height: calc(100vh - 66px);
+}
+
+.historyRoot {
+  height: calc(100vh - 66px);
+  overflow-y: scroll;
+}
+
+.assessmentFormRoot {
+  height: calc(100% - 20px);
+  overflow-y: scroll;
+  padding: 0px;
+}
+
+.formHeader {
+  padding: 16px 32px;
+  box-shadow: 0px 1px 5px 0px #00000017;
+}
+
+.formRow {
+  margin-bottom: 24px !important;
+}
+
+.attachmentsRow {
+  margin-bottom: 24px !important;
+  margin-top: 24px !important;
+}
+
+.formBody {
+  padding: 32px 32px 100px 32px;
+  height: calc(100% - 120px);
+  overflow-y: scroll;
+}
+
+.formFooter {
+  height: 60px;
+  box-shadow: 0px -1px 5px 0px #00000017;
+  padding: 12px 32px;
+  text-align: right;
+}
+
+.formFooterBtn {
+  margin-left: 32px !important;
+}
+
+.TextField {
+  padding: 8px 8px !important;
+  font-size: 14px !important;
+}
+
+.timeline {
+  padding: 32px 32px;
+}
+
+.followUpDaysTextInput {
+  padding: 12px 4px !important;
+}
+
+.followUpDaysExtra {}
+
+.margin16Top {
+  margin-top: 16px;
+}
+
+.margin20Top {
+  margin-top: 20px;
+}
+
+.textAlightCenter {
+  text-align: center;
+}
+
+.textAlightRight {
+  text-align: right;
+}
+
+.historyBlock {
+  width: 100%;
+}
+
+.historyTitle {
+  cursor: pointer;
+  background: white;
+  padding: 8px 16px;
+  display: flex;
+}
+
+.historyTimelineRoot {
+  width: 100%;
+  padding: 0 8px;
+  border-radius: 5px;
+}
+
+@media (max-width: 960px) {
+  .historyRoot {
+    height: initial;
+    overflow-y: scroll;
+  }
+
+  .collapseHistory {
+    display: none;
+  }
+}
+
+@media (min-width: 960px) {
+  .titleArrow {
+    display: none !important;
+  }
+}

@@ -1,0 +1,16 @@
+.calendarPopover {
+  z-index: 5001 !important;
+}
+
+.timeSelect {
+  padding: 8px 0;
+  text-align: center;
+  background: #eaeaea;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.timeSelectorInput {
+  padding: 8px !important;
+}

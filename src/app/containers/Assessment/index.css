@@ -1,0 +1,366 @@
+.inputResetButton {
+  cursor: pointer;
+}
+
+.pointerNone {
+  pointer-events: none !important;
+}
+
+/* diagnosis*/
+
+.App {
+  font-family: sans-serif;
+}
+
+.ButtonField {
+  padding: 17px 12px !important;
+  margin-top: 15px !important;
+}
+
+.textSearch {
+  margin-right: 5px !important;
+}
+
+.btnMargin {
+  margin: 4px !important;
+  min-width: 40px !important;
+  background-color: white !important;
+  border: 1px solid #808080 !important;
+}
+
+.closeBtn {
+  top: 8px !important;
+  color: #9e9e9e !important;
+  right: 8px !important;
+  position: absolute !important;
+}
+
+.okBtn {
+  margin-top: 5px !important;
+  color: white !important;
+  background-color: #b1afaf !important;
+  pointer-events: none;
+}
+
+.successBtn {
+  margin-top: 5px !important;
+  color: white !important;
+  background-color: #088c3c !important;
+}
+
+.clearBtn {
+  margin-right: 70px !important;
+}
+
+
+.txtCntr {
+  text-align: center !important;
+}
+
+.A {
+  border: 1px solid gray !important;
+  min-height: 45px !important;
+}
+
+.css-f91fgu {
+  background-color: #ffffff !important;
+  font-weight: 600 !important;
+  color: #292727 !important;
+}
+
+.icdBtn {
+  padding: 3px 12px !important;
+  min-width: none !important;
+}
+
+.nodeRef {
+  width: 6% !important;
+  margin-top: 3px !important;
+}
+
+.mrtp6 {
+  margin-top: 6px !important;
+}
+
+/*slate*/
+.slate {
+  background: #009654 !important;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.drawingBoard {
+  overflow: auto;
+  margin: 0px !important;
+  padding: 0px !important;
+}
+
+.whiteColor {
+  color: white;
+}
+
+.backGrndColor {
+  background-color: white !important;
+}
+
+.txtAlgnEnd {
+  text-align: end;
+}
+
+.mrgTp7 {
+  margin-top: 5px !important;
+}
+
+.dgTitle {
+  padding: 5px !important;
+}
+/*medication*/
+
+.slate {
+  background: #009654 !important;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: white !important;
+}
+
+.dropDown {
+  margin-top: 16px !important;
+  text-align: end !important;
+}
+
+.actionBackGroundColor {
+  background-color: #dfffe5 !important;
+}
+
+.cancelButtonColor {
+  color: #009654 !important;
+}
+
+.saveButtonColor {
+  background: #009654 !important;
+  color: white !important;
+}
+
+.mt10 {
+  margin-top: 16px !important;
+}
+
+.mealBackgroundColor {
+  background-color: #cecece !important;
+}
+
+
+.daysWeek {
+  margin-top: 47px !important;
+}
+
+.btnPadding {
+  padding: 8px !important;
+}
+
+#days {
+  text-align: center !important;
+}
+
+/*affect others*/
+/* .MuiTextField-root {
+    width: 31% !important;
+  } */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/*mian*/
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.succesBtn {
+  color: white !important;
+  background-color: #009654 !important;
+}
+
+.btnUnderLine {
+  text-decoration: underline !important;
+  padding: 0px !important;
+}
+
+.addMoreMrgn {
+  margin-top: 64px !important;
+}
+
+.mt24 {
+  margin-top: 30px !important;
+}
+
+.printFont {
+  font-weight: 100 !important;
+}
+
+/*print*/
+
+.ifrm {
+  width: 0px;
+  height: 0px;
+  display: contents;
+}
+
+.fullWdth {
+  width: 100%;
+}
+
+.pdngTop15 {
+  padding-top: 15px !important;
+}
+
+.pdngLft15 {
+  padding-left: 15px !important;
+}
+
+.pdngright15 {
+  padding-right: 15px !important;
+}
+
+.pdngTop50 {
+  padding-top: 50px !important;
+}
+
+.pdngBottom50 {
+  padding-bottom: 50px !important;
+}
+
+.brdBtm {
+  border-bottom: 1px solid gray !important;
+}
+
+.txtAlgnRight {
+  text-align: -webkit-right !important;
+}
+
+.asmntImg {
+  width: 50vw !important;
+  height: 25vw !important;
+  object-fit: contain !important;
+}
+
+.pFooter {
+  position: fixed !important;
+  bottom: 0 !important;
+}
+
+.prntFootermain {
+  width: 5% !important;
+  padding-left: 15px !important;
+}
+
+.prntFooterCont {
+  padding-top: 15px !important;
+  width: 50%;
+  border-top: 1px solid gray;
+}
+
+.prntFooterCont1 {
+  padding-top: 15px !important;
+  width: 50%;
+  border-top: 1px solid gray;
+  text-align: -webkit-right !important;
+}
+
+.prntFootermainend {
+  width: 5% !important;
+  padding-right: 55px !important;
+}
+
+.mrgnTop24 {
+  margin-top: 24px !important;
+}
+
+.mrgnBtm12 {
+  margin-bottom: 12px !important;
+}
+
+.flwUpBtn {
+  padding-left: 20px !important;
+  margin-top: 52px !important;
+}
+
+.mtp30 {
+  margin-top: 30px !important;
+}
+
+.flwClearBtn {
+  text-align: end;
+  margin-top: 58px !important;
+}
+
+.ClearBtn {
+  text-align: end;
+  margin-top: 45px !important;
+}
+
+.justifyCntEnd {
+  justify-content: flex-end !important;
+}
+
+.mr10 {
+  margin-right: 10px !important;
+}
+
+.mt20 {
+  margin-top: 20px !important;
+}
+
+.mt15 {
+  margin-top: 15px !important;
+}
+
+.txtEnd {
+  text-align: end !important;
+}
+
+.txtStart {
+  text-align: start !important;
+}
+
+.pntEventNe {
+  pointer-events: none !important;
+}
+
+.tchActNone {
+  touch-action: none !important;
+}
+
+.histry {
+  margin-bottom: 20px !important;
+  border-bottom: 1px solid #a9a4a4 !important;
+}
+
+.mrgnBt10 {
+  margin-bottom: 10px !important;
+}
+
+.addSymbl {
+  max-width: none !important;
+  text-align: end !important;
+}
+
+.mrtp3 {
+  margin-top: 3px !important;
+}
+
+.drgGryColor {
+  color: #757474;
+}
+
+.pdngLft20 {
+  padding-left: 20px !important;
+}
+
+.assmntImg {
+  width: 50vw !important;
+  height: 25vw !important;
+  object-fit: contain !important;
+}

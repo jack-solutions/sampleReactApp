@@ -1,0 +1,59 @@
+.scrollCalendar {
+    min-width: 500px;
+  }
+  
+  .eventSummary {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .chip {
+    margin: 2px 5px 2px 5px;
+    border-width: 2px !important;
+    min-width: 160px;
+  }
+
+  .lineThrough {
+    text-decoration: line-through;
+  }
+
+  .eventRow {
+    display: flex;
+    align-items: center;
+    padding: 2px 0 2px 0;
+  }
+  
+  .fromto {
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  .info {
+    border-left: 3px solid green;
+    height: 80px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-grow: 1;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  .fromtoline {
+    height: 15px;
+    border-left: 2px solid gray;
+    margin-left: calc(50% - 2px);
+  }
+  
+  .toTime {
+    font-size: 12px;
+  }
+  

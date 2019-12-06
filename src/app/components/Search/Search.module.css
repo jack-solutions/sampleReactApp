@@ -1,0 +1,41 @@
+.search {
+  position: relative;
+  width: 50px;
+  float: right;
+  border-radius: 5px;
+  transition: width 0.5s, background 1s;
+}
+
+.search.searchInputFocused {
+  width: 200px;
+  background: #ececec;
+}
+
+.searchIcon {
+  width: 40px;
+  height: 100%;
+  position: absolute;
+  pointer-events: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.inputRoot {
+  color: inherit;
+}
+
+.inputInput {
+  padding: 10px 8px 8px 40px !important;
+}
+
+.searchInputActive {
+  border: 1px solid green;
+  border-radius: 5px;
+}
+
+.clearButton {
+  position: absolute !important;
+  padding: 9px !important;
+  right: 0;
+}

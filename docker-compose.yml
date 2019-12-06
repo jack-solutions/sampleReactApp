@@ -1,0 +1,41 @@
+version: "3"
+services:
+  okhatiui:
+    build: ./
+    image: okhatiui:latest
+    ports: 
+      - 3001:3001
+    command: bash -c 'while !</dev/tcp/okhatiserver/5500; do sleep 1; done; npm run dev'
+    depends_on:
+      - okhatiserver
+    volumes:
+      - .:/okhatiui
+      - ui_modules:/okhatiui/node_modules/
+    environment:
+      - SERVER_HOST=okhatiserver:5500
+      - PORT=3001
+  okhatiserver:
+    build: ../okhatiserver
+    image: okhatiserver:latest
+    ports: 
+      - 5500:5500
+    command: bash -c 'while !</dev/tcp/db/5432; do sleep 1; done; npm start'
+    depends_on:
+      - db
+    environment:
+      - DATABASE_URL=postgres://postgres:password@db:5432/eokhatidb
+    volumes:
+      - ../okhatiserver:/okhatiserver
+      - server_modules:/okhatiserver/node_modules/
+  db:
+    image: postgres
+    volumes: 
+      - pgdata:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=password
+      - POSTGRES_DB=eokhatidb
+volumes:
+  pgdata:
+  ui_modules:
+  server_modules:

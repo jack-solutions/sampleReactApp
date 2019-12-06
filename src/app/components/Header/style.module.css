@@ -1,0 +1,11 @@
+.root {
+  flex-grow: 1;
+}
+.logo {
+  height: 35px;
+}
+
+.login {
+  position: absolute !important;
+  right: 24px;
+}

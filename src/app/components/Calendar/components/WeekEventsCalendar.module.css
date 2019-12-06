@@ -1,0 +1,110 @@
+.weekcalendarContainer {
+  height: calc(100vh - 100px);
+  width: 100%;
+}
+
+.weekcalendarHeaders {
+  display: flex;
+  box-shadow: 0 4px 5px -2px #8080806e;
+  height: 75px;
+  padding-top: 10px;
+  border-top: 1px solid lightgray;
+}
+
+.weekcalendarHeader {
+  flex-basis: 400px;
+}
+
+.headerEmptyslot {
+  flex-basis: 120px;
+}
+
+.weekcalendarGrid {
+  position: relative;
+}
+
+.weekcalendarGridcell {
+  height: 50px;
+  border-top: 1px solid #80808021;
+  box-sizing: border-box;
+}
+
+.Hour {
+  border-top: 1px solid #80808080;
+}
+
+.weekcalendarDayColumns {
+  display: flex;
+  height: calc(100% - 75px);
+  overflow-y: scroll;
+}
+
+.weekcalendarDayColumn {
+  flex-basis: 400px;
+  padding: 0 0px 0 8px;
+}
+
+
+.weekcalendarEvent {
+  width: 100%;
+  border-radius: 3px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.weekcalendarEvent:hover {
+  box-shadow: 0 0px 4px 2px rgba(0, 0, 0, 0.18);
+}
+
+.weekcalendarEvents {
+  height: 0px;
+  width: inherit;
+}
+
+.weekcalendarClock {
+  width: 100%;
+  position: relative;
+  height: 0;
+}
+
+.weekcalendarClockBar {
+  height: 2px;
+  background: red;
+  width: 100%;
+}
+
+.weekcalendarActionBar {
+  height: 50px;
+  display: flex;
+}
+
+.weekcalendarActionBarLeft {
+  flex-grow: 1;
+  padding-left: 16px;
+}
+
+.weekcalendarActionBarRight {
+  text-align: right;
+  flex-grow: 1;
+}
+
+.weekcalendarActionBarMiddle {
+  text-align: center;
+  flex-grow: 1;
+}
+
+.colorRed {
+  color: red !important;
+}
+
+.emptyCalendar {
+  background: url('../../../../assets/images/dummy_calendar.svg') no-repeat center;
+  min-height: 400px;
+  width: 100%;
+}
+
+.emptyCalendarText {
+  position: relative;
+  text-align: center;
+  top: 280px;
+}

@@ -1,0 +1,16 @@
+.listingContainer {
+  display: flex;
+}
+
+.doctorImage img {
+  border: 2px solid #ccc;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.timeAndDoctor {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 40px 0 0 50px;
+}

@@ -1,0 +1,14 @@
+// The bits you want to see
+.okhati-loader{
+  stroke: #E76E66;
+  stroke-dasharray: 175;
+  stroke-dashoffset: 350;
+  animation: draw 1.4s infinite linear;
+}
+
+// The animation
+@keyframes draw {
+  to{
+    stroke-dashoffset: 0;
+  }
+}

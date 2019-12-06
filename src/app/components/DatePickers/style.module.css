@@ -1,0 +1,14 @@
+.dateDisplay {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.gotoToday {
+  text-decoration: underline;
+  cursor: pointer;
+  margin-left: 8px;
+}
+
+.gotoToday:hover {
+  color: black;
+}
